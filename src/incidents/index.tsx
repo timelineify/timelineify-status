@@ -71,7 +71,7 @@ const IncidentsSection: NextPage = () => {
 						</div>
 					))}
 					{(monthlyIncidents as MonthlyIncident[]).length == 0 && (
-						<p className="mt-2 sm:text-sm	text-base leading-7 text-gray-900">There have been no recent incidents.</p>
+						<p className="mt-2 text-base leading-7 text-gray-900">There have been no recent incidents.</p>
 					)}
 				</div>
 			)}

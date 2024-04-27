@@ -34,8 +34,8 @@ const ServicesSection: NextPage = () => {
     }
 
     return (
-        <div className='mt-10'>
-            <div className="mx-px md:ml-80 md:mr-80 bg-white dark:bg-slate-800 rounded-xl card">
+        <div className='mt-10 p-10 mx-auto max-w-7xl'>
+            <div className=" bg-white dark:bg-slate-800 rounded-xl card">
                 <div className="w-full flex justify-between pt-2 pl-6 pr-6 pb-2">
                     <div className='flex items-center sm:text-xl text-xs font-semibold leading-7'>
                         <Icon />
@@ -47,7 +47,7 @@ const ServicesSection: NextPage = () => {
                     </div>
                 </div>
             </div>
-            <div className="mx-px mt-10 md:ml-60 md:mr-60">
+            <div className="mx-auto max-w-7xl mt-10">
                 <div className="card-body">
                     {
                         isServicesLoading ? (
@@ -63,7 +63,7 @@ const ServicesSection: NextPage = () => {
                         )
                     }
                 </div>
-                <p className="mt-10 sm:text-lg	text-base font-semibold leading-7 text-gray-900">Recent Incidents</p>
+                <p className="mx-auto max-w-7xl sm:text-lg	text-base font-semibold leading-7 text-gray-900 pl-0">Recent Incidents</p>
                 <IncidentsSection />
             </div>
         </div >
