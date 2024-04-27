@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }: AppProps) {
 	return (
 		<>
 			<Head>
-				<title>System Status</title>
+				<title>Timelineify Status</title>
 			</Head>
 			<Component {...pageProps} />
 		</>
