@@ -6,6 +6,9 @@ const nextConfig = {
   assetPrefix: production ? '/' : '',
   reactStrictMode: true,
   swcMinify: true,
+  images: {
+    unoptimized: true
+  }
 }
 
 module.exports = nextConfig
